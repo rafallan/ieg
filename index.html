@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sistema de Artigos do IEG</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Estilo -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="jumbotron jumbotron-fluid badge-dark bg-dark">
+            <div class="container">
+                <h1 class="display-4">Sistema de Artigos do IEG</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand d-block d-sm-none" href="#">IEG</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Cursos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Ciência da Computação</a>
+                            <a class="dropdown-item" href="#">Engenharia Física</a>
+                            <a class="dropdown-item" href="#">Geofísica</a>
+                            <a class="dropdown-item" href="#">Geologia</a>
+                            <a class="dropdown-item" href="#">Sistemas de Informação</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Disciplinas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Análise de Sistemas</a>
+                            <a class="dropdown-item" href="#">Banco de Dados</a>
+                            <a class="dropdown-item" href="#">Engenharia de Software</a>
+                            <a class="dropdown-item" href="#">Programação</a>
+                            <a class="dropdown-item" href="#">Segurança da Informação</a>
+
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit"><span class="fa fa-search"></span></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-12">
+                    <div class="artigo">
+                        <div class="artigo-titulo">
+                            <h3 class="text-center">Modelagem Relacional</h3>
+                        </div>
+                        <div class="artigo-subtitulo">
+                            <h5>Este artigo tem como objetivo introduzir os conceitos básicos sobre
+                                Modelagem
+                                Relacional, objeto de dados, nomenclatura e dicionarização, atributo, relacionamento,
+                                integridade, documentação e normalização.</h5>
+                        </div>
+                        <div class="artigo-conteudo">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem voluptates
+                                perferendis quae temporibus alias ut, debitis pariatur animi in harum nihil eligendi
+                                obcaecati ab quidem iure rerum quos doloribus sunt.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis architecto
+                                recusandae iusto, eius neque voluptas explicabo aliquid aliquam molestias reprehenderit
+                                magni inventore consequatur accusantium, sed deleniti mollitia cumque veritatis totam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12" style="border-left:1px soliD #cccccc;">
+                    <div class="artigos-recentes">
+                        <h5>Artigos mais acessados</h5>
+                        <ul>
+                            <li><a href="">Título artigo 1</a></li>
+                            <li><a href="">Título artigo 2</a></li>
+                            <li><a href="">Título artigo 3</a></li>
+                            <li><a href="">Título artigo 4</a></li>
+                            <li><a href="">Título artigo 5</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="tags">
+                        <h5>Tags</h5>
+                        <ul>
+                            <li><a href="" class="btn btn-outline-secondary">PHP</a></li>
+                            <li><a href="" class="btn btn-outline-secondary">Python</a></li>
+                            <li><a href="" class="btn btn-outline-secondary">Java</a></li>
+                            <li><a href="" class="btn btn-outline-secondary">Javascript</a></li>
+                            <li><a href="" class="btn btn-outline-secondary">UML</a></li>
+                            <li><a href="" class="btn btn-outline-secondary">Física Quântica</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ranking-autores">
+                        <h5>Ranking autores</h5>
+                        <ul>
+                            <li><a href="">Alain</a></li>
+                            <li><a href="">Dalton</a></li>
+                            <li><a href="">Lucas </a></li>
+                            <li><a href="">Rafael</a></li>
+                            <li><a href="">Zaira</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Jquery -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

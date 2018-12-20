@@ -1,0 +1,54 @@
+body{
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.artigos-recentes ul li{
+    list-style: none;
+}
+
+.artigos-recentes ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+nav{
+    border-bottom: 3px solid orange;
+    margin-bottom: 2em;
+}
+
+.artigo-subtitulo{
+    margin-bottom: 2em;
+}
+
+.artigo-conteudo{
+    line-height: 1.8;
+    font-size: .9em;
+}
+
+.artigo-conteudo p{
+    line-height: 1.8;
+}
+
+.tags ul li{
+    display: inline;
+}
+
+.tags ul li a{
+    text-decoration: none;
+    margin: 2px;
+}
+
+.ranking-autores ul li{
+    list-style: none;
+}
+
+.ranking-autores ul li a{
+    text-decoration: none;
+    color: #666666;
+}
