@@ -1,8 +1,7 @@
 body{
     background: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    
-    
+
 }
 
 .artigos-recentes ul li{
@@ -23,7 +22,7 @@ body{
 
 .jumbotron{
     margin-bottom: 0;
-
+    padding: 0;
 }
 
 nav{
@@ -118,10 +117,6 @@ footer{
     text-align: left;
     padding: 2em;
     margin-top: 2em;
-}
-
-.logo{
-    
 }
 
 .login{
