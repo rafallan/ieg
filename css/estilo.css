@@ -29,6 +29,12 @@ nav{
     border-bottom: 3px solid #00ace9;
     margin-bottom: 2em;
     border-top: 3px solid #00ace9;
+    background: #00ace9;
+    
+}
+
+.navbar-nav .nav-link{
+    color: #ffffff;
 }
 
 .artigo-titulo{
@@ -103,13 +109,12 @@ footer{
 
 .topo-titulo{
     font-size: 2.5em;
-    text-align: center;
 
 }
 
 .topo-subtitulo{
     font-size: 1.5em;
-    text-align: center;
+    
 }
 
 .topo-texto{
