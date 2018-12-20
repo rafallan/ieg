@@ -13,6 +13,13 @@ body{
     color: black;
 }
 
+.artigos-recentes ul li a:hover{
+    color: #ffffff;
+    background: #000000;
+    font-weight: bold;
+    
+}
+
 .jumbotron{
     margin-bottom: 0;
 }
@@ -59,6 +66,12 @@ nav{
 .ranking-autores ul li a{
     text-decoration: none;
     color: #666666;
+}
+
+.ranking-autores ul li a:hover{
+    color: #ffffff;
+    background: #000000;
+    font-weight: bold;
 }
 
 .wrapper{
