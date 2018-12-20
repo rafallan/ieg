@@ -63,9 +63,11 @@ nav{
 
 footer{
     text-align: center;
+    font-size: 0.9em;
 }
 
 .identificacao{
     margin-bottom: 2em;
     font-size: .85em;
+    font-weight: normal;
 }
