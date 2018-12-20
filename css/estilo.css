@@ -61,13 +61,24 @@ nav{
     color: #666666;
 }
 
+.wrapper{
+    position: relative;
+}
+
 footer{
     text-align: center;
     font-size: 0.9em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    min-height: 50px;
+    width: 100%;
+    padding: 1.5em;
+    
 }
 
 .identificacao{
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-size: .85em;
     font-weight: normal;
 }
