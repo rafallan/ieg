@@ -22,6 +22,7 @@ body{
 
 .jumbotron{
     margin-bottom: 0;
+    position: relative;
 }
 
 nav{
@@ -97,8 +98,24 @@ footer{
 }
 
 .topo-titulo{
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
-    padding: 1em;
 
+}
+
+.topo-subtitulo{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.topo-texto{
+    position: relative;
+    padding: 1em;
+    text-align: left;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+.logo{
+    position: relative;
 }
