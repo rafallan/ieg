@@ -2,6 +2,7 @@ body{
     background: #ffffff;
     font-family: 'Open Sans', sans-serif;
     
+    
 }
 
 .artigos-recentes ul li{
@@ -78,6 +79,7 @@ nav{
 .wrapper{
     position: relative;
     margin-bottom: 5em;
+    min-height: 700px;
 }
 
 footer{
