@@ -22,7 +22,7 @@ body{
 
 .jumbotron{
     margin-bottom: 0;
-    position: relative;
+
 }
 
 nav{
@@ -109,7 +109,7 @@ footer{
 }
 
 .topo-texto{
-    position: relative;
+   
     padding: 1em;
     text-align: left;
     padding: 2em;
@@ -117,5 +117,13 @@ footer{
 }
 
 .logo{
-    position: relative;
+    
+}
+
+.login{
+    color: #ffffff;
+}
+
+.login a{
+    color: #ffffff;
 }
