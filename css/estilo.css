@@ -16,7 +16,7 @@ body{
 .artigos-recentes ul li a:hover{
     color: #ffffff;
     background: #000000;
-    font-weight: bold;
+    
     
 }
 
@@ -71,7 +71,7 @@ nav{
 .ranking-autores ul li a:hover{
     color: #ffffff;
     background: #000000;
-    font-weight: bold;
+    
 }
 
 .wrapper{
