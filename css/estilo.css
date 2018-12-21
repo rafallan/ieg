@@ -23,14 +23,19 @@ body{
 .jumbotron{
     margin-bottom: 0;
     padding: 0;
+    position: relative;
 }
 
 nav{
-    border-bottom: 3px solid #00ace9;
+    border-bottom: 3px solid #343a40;
     margin-bottom: 2em;
-    border-top: 3px solid #00ace9;
     background: #00ace9;
     
+}
+
+.nav-item.active{
+    background-color: #343a40;
+
 }
 
 .navbar-nav .nav-link{
@@ -133,4 +138,11 @@ footer{
 
 .login a{
     color: #ffffff;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
 }
