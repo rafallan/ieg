@@ -254,3 +254,30 @@ input[type=text]:focus {
     text-decoration: none;
     background-color: #343a40;
 }
+
+a.navbar-brand.d-block.d-sm-none{
+    color: #ffffff;
+}
+
+button.navbar-toggler.collapsed{
+    border: 1px solid #ffffff;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover{
+    border: 1px solid #ffffff;
+}
+
+.navbar-toggler{
+    border: 1px solid #ffffff;
+    display: -ms-inline-grid;
+}
+
+.navbar-toggler-icon{
+    background: #fff;
+    height: 1px solid #ffffff !important;
+    width: 1.5em;
+    display: flex;
+    height: 0.2em;
+    margin: 2px;
+    vertical-align: -webkit-baseline-middle;
+}
