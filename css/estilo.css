@@ -4,6 +4,11 @@ body{
 
 }
 
+.artigos-recentes{
+    margin-bottom: 3em;
+    
+}
+
 .artigos-recentes ul li{
     list-style: none;
 }
@@ -15,11 +20,12 @@ body{
 
 .artigos-recentes ul li a:hover{
     color: #ffffff;
-    background: #000000;
+    background: #00ace9;
 }
 
 .artigos-recentes h5{
     font-weight: bold;
+    
 }
 
 .jumbotron{
@@ -65,6 +71,10 @@ nav{
     line-height: 1.8;
 }
 
+.tags{
+    margin-bottom: 3em;
+}
+
 .tags ul li{
     display: inline;
 }
@@ -89,7 +99,7 @@ nav{
 
 .ranking-autores ul li a:hover{
     color: #ffffff;
-    background: #000000;
+    background: #00ace9;
     
 }
 
@@ -129,7 +139,7 @@ footer{
 
 .topo-subtitulo{
     font-size: 1.5em;
-    
+
     
 }
 
