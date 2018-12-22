@@ -218,6 +218,9 @@ input[type=text]:focus {
   }
   #acessibilidade a {
     padding: 10px 6px;
+    color: #343a40;
+    padding: 12px;
+    text-decoration: none;
   }
 
   /* Acessibilidade */
@@ -233,10 +236,21 @@ input[type=text]:focus {
   display: flex;
   justify-content: space-between;
 }
-#acessibilidade a{
-    color: #343a40;
-    padding: 12px;
-}
 
 /*fim acessibilidade*/
 
+/* --- MENU ------ */
+
+.dropdown-menu.show{
+    background-color: #00ace9;
+}
+
+.dropdown-item{
+    color: #ffffff;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #343a40;
+}
