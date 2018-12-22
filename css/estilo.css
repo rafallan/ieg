@@ -201,3 +201,42 @@ input[type=text]:focus {
 }
 
 /* ----------------------------- */
+
+/* --------------- Barra de acessibilidade --------------------- */
+
+#acessibilidade li:hover a{
+    background: transparent;
+    cursor: pointer;
+  }
+  #acessibilidade a span{
+    background:  #00ace9;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 2px 4px;
+    margin-left: 4px;
+    color: #fff;
+  }
+  #acessibilidade a {
+    padding: 10px 6px;
+  }
+
+  /* Acessibilidade */
+#acessibilidade {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .75em;
+    margin: .65em;
+}
+#acessibilidade .container, #acessibilidade .col-sm-12{
+  padding: 0;
+}
+#acessibilidade .col-sm-12{
+  display: flex;
+  justify-content: space-between;
+}
+#acessibilidade a{
+    color: #343a40;
+    padding: 12px;
+}
+
+/*fim acessibilidade*/
+
