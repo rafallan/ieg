@@ -16,8 +16,10 @@ body{
 .artigos-recentes ul li a:hover{
     color: #ffffff;
     background: #000000;
-    
-    
+}
+
+.artigos-recentes h5{
+    font-weight: bold;
 }
 
 .jumbotron{
@@ -72,6 +74,10 @@ nav{
     margin: 2px;
 }
 
+.tags h5{
+    font-weight: bold;
+}
+
 .ranking-autores ul li{
     list-style: none;
 }
@@ -87,6 +93,10 @@ nav{
     
 }
 
+.ranking-autores h5{
+    font-weight: bold;
+}
+
 .wrapper{
     position: relative;
     margin-bottom: 5em;
@@ -96,9 +106,9 @@ nav{
 footer{
     text-align: center;
     font-size: 0.75em;
-    position: fixed;
+    //position: fixed;
     bottom: 0;
-    left: 0;
+    //left: 0;
     height: auto;
     width: 100%;
     padding: 1em;
@@ -119,6 +129,7 @@ footer{
 
 .topo-subtitulo{
     font-size: 1.5em;
+    
     
 }
 
@@ -179,3 +190,4 @@ input[type=text]:focus {
     color: #343a40;
 }
 
+/* ----------------------------- */
